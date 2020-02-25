@@ -1,0 +1,17 @@
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: Plastic Fern Studios
+description: "We’re experts in what you need to release your game. From porting to release management, our experienced team provides personalized and premium skills, insights, and deliverables to demystify the process of launching your game."
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jaymfernandes
+  - title: envelope
+    url: mailto:info@plasticfernstudios.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty

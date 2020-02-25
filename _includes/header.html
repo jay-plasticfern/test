@@ -1,0 +1,70 @@
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"> <img src= "{{site.baseurl}}/assets/img/plastic_fern_studios_logo_for_light_bg-small.png" width = 100px alt = "Plastic Fern Logo"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                      <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">SERVICES <i class="fa fa-caret-down"></i></button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="#">Release Management</a>
+                          <a href="#">Porting</a>
+                          <a href="#">QA</a>
+                          <a href="#">Audio</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown2">
+                        <button onclick="myFunction2()" class="dropbtn2">ABOUT US <i class="fa fa-caret-down"></i></button>
+                        <div id="myDropdown2" class="dropdown-content2">
+                          <a class="page-scroll" href="#about">Who We Are</a>
+                          <a class="page-scroll" href="#about">Values</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#clients">Clients</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+              <img src= "{{site.baseurl}}/assets/img/plant.jpg" width = 300px alt = "Plastic Fern Logo">
+                <div class="intro-heading">We’re experts in what you need to release your game.</div>
+                <div class="intro-lead-in">From porting to release management, our experienced team provides personalized and premium
+                skills, insights, and deliverables to demystify the process of launching your game.</div>
+                <a href="#contact" class="page-scroll btn btn-xl">Contact Us!</a>
+            </div>
+        </div>
+    </header>
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
